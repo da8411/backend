@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  local:
+    image: kimweazzle/weazzle-backend
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    volumes:
+      - .:/code/app

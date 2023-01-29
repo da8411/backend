@@ -1,3 +1,12 @@
+# git
+.git
+.gitignore
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# pycache
 __pycache__
 
 # OS
@@ -13,8 +22,4 @@ __pycache__
 *.sublime-workspace
 
 # IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+.vscode
